@@ -112,5 +112,21 @@ header .models{
         height: 50%;
         border: 2px solid green;
     }
+    .container p{
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    .container iframe{
+        width: 300px;
+        height: 50%;
+        margin-left: 20px;
+        border: 2px solid green;
+    }
+    header{
+        padding: 10px 50px 20px 25px;
+    }
+    .container{
+        margin-left: 25px;
+    }
 
 }
