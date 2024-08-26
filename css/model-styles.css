@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+html,body{
+    width:auto;
+    height:auto;
+}
+body::before{
+    content: "";
+    background-image: url("../images/forest.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+    padding-bottom: 50px;
+}
+header .home a{
+    color: white;
+    position: relative;
+    font-size: 25px;
+}
+header{
+    background: #11101b;
+    font-weight: bold;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    padding: 10px 50px 20px 50px;
+    font-size: 15px;
+    height: 70px;
+    display: flex;
+    transform: translateX(-100%);
+    align-items: center;
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+    animation: sll 0.9s ease-out forwards;
+}
+header .models{
+    color: white;
+}
+
+.container-1{
+    transform: scale(0);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+    animation: zoomin 0.5s ease-in-out forwards;
+}
+.container-1 div img{
+    margin-bottom: 50px;
+}
+.container-1 .box1{
+    width: 250px;
+    height: 50%;
+    border-radius: 10px;
+}
+.container-1 .box2{
+    width: 250px;
+    height: 50%;
+    border-radius: 10px;
+}
+.container-1 .box3{
+    width: 250px;
+    height: 50%;
+    border-radius: 10px;
+}
+.container-1 .box4{
+    width: 250px;
+    height: 50%;
+    border-radius: 10px;
+}
+.container-1 .box5{
+    width: 250px;
+    height: 50%;
+    border-radius: 10px;
+}
+.container-1 .box6{
+    width: 250px;
+    height: 50%;
+    border-radius: 10px;
+}
+.container-1 .box7{
+    width: 250px;
+    height: 50%;
+    border-radius: 10px;
+}
+.container-1 .box8{
+    width: 250px;
+    height: 50%;
+    border-radius: 10px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.box1 img:hover{
+    box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.9);
+}
+.box1 p{
+    color: red;
+    margin-left: 50px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.box2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.box2 img:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 255, 0.9);
+}
+.box2 p{
+    color: blue;
+    margin-left: 50px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.box3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.box3 img:hover{
+    box-shadow: 5px 5px 15px rgba(242, 255, 0, 0.9);
+}
+.box3 p{
+    color: crimson;
+    margin-left: 50px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.box4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.box4 img:hover{
+    box-shadow: 5px 5px 15px rgba(172, 69, 14, 0.9);
+}
+.box4 p{
+    color: brown;
+    margin-left: 50px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.box5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.box5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.box5 img:hover{
+    box-shadow: 5px 5px 15px rgba(0, 255, 0, 0.9);
+}
+.box5 p{
+    color: green;
+    margin-left: 50px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.box6{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.box6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.box6 img:hover{
+    box-shadow: 5px 5px 15px rgba(255, 0, 212,0.9);
+}
+.box6 p{
+    color: indigo;
+    margin-left: 50px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.box7{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.box7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.box7 img:hover{
+    box-shadow: 5px 5px 15px rgba(0, 251, 255, 0.9);
+}
+.box7 p{
+    color: hotpink;
+    margin-left: 50px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.box8{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.box8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.box8 img:hover{
+    box-shadow: 5px 5px 15px rgba(179, 255, 0, 0.9);
+}
+.box8 p{
+    color: lightslategray;
+    margin-left: 50px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+@keyframes zoomin{
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes sll{
+    to{
+        transform: translateX(0);
+    }
+}
+@media (max-width:800px){
+    header{
+        font-size: 10px;
+    }
+    .container-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .container-1 .box1{
+        width: 150px;
+        height: 50%;
+    }
+    .container-1 .box1 p{
+        font-size: 15px;
+    }
+    .container-1 .box2{
+        width: 150px;
+        height: 50%;
+    }
+    .container-1 .box2 p{
+        font-size: 15px;
+    }
+    .container-1 .box3{
+        width: 150px;
+        height: 50%;
+    }
+    .container-1 .box3 p{
+        font-size: 15px;
+    }
+    .container-1 .box4{
+        width: 150px;
+        height: 50%;
+    }
+    .container-1 .box4 p{
+        font-size: 15px;
+    }
+    .container-1 .box5{
+        width: 150px;
+        height: 50%;
+    }
+    .container-1 .box5 p{
+        font-size: 15px;
+    }
+    .container-1 .box6{
+        width: 150px;
+        height: 50%;
+    }
+    .container-1 .box6 p{
+        font-size: 15px;
+    }
+    .container-1 .box7{
+        width: 150px;
+        height: 50%;
+    }
+    .container-1 .box7 p{
+        font-size: 15px;
+    }
+    .container-1 .box8{
+        width: 150px;
+        height: 50%;
+    }
+    .container-1 .box8 p{
+        font-size: 15px;
+    }
+    header .home{
+        font-size: 15px;
+    }
+}
