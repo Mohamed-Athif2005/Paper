@@ -100,8 +100,8 @@ header .models{
     header .models{
         font-size: 20px;
     }
-    header .home{
-        font-size: 5px;
+    header .home a{
+        font-size: 15px;
     }
 
     .container h1{
@@ -112,7 +112,7 @@ header .models{
         margin-left: 25px;
     }
     .container iframe{
-        width: 300px;
+        width: 250px;
         height: 50%;
         margin-left: 20px;
         border: 2px solid green;
