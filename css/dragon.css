@@ -96,22 +96,32 @@ header .models{
     
 }
 @media (max-width : 800px) {
+
     header .models{
         font-size: 20px;
     }
     header .home{
-        font-size: 10px;
+        font-size: 5px;
     }
+
     .container h1{
         font-size: 20px;
     }
     .container p{
         font-size: 15px;
+        margin-left: 25px;
     }
     .container iframe{
         width: 300px;
         height: 50%;
+        margin-left: 20px;
         border: 2px solid green;
+    }
+    header{
+        padding: 10px 50px 20px 25px;
+    }
+    .container{
+        margin-left: 25px;
     }
 
 }
