@@ -127,6 +127,7 @@ header .models{
         border-right: 1px solid blue;
         border-bottom: 2px solid blue;
         padding-left: 10px;
+        padding-top: 12px;
         font-size: 10px;
     }
 
