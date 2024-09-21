@@ -105,7 +105,7 @@ header .models{
     }
     .container{
         margin-left: 30px;
-        width: 270px
+        width: 300px
     }
     .question{
         font-style: normal;
@@ -116,7 +116,7 @@ header .models{
         cursor: pointer;
         padding-left: 15px;
         margin-top: 20px;
-        height: 20px;
+        height: 25px;
         background-color: #11101b;
         border-radius: 5px;
     }
