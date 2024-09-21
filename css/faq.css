@@ -34,27 +34,29 @@ header .models{
 }
 .container{
     position: relative;
+    display: flex;
     width: 700px;
     height: 700px;
     margin-top: 50px;
-    margin-left: 320px;
+    margin-left: 30vw;
 }
 .question{
     font-style: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: monospace;
     color: white;
     font-size: 18px;
     padding-top: 10px;
     cursor: pointer;
     padding-left: 30px;
     margin-top: 20px;
-    height: 40px;
     background-color: #11101b;
     border-radius: 10px;
+    padding-bottom: 10px;
+    width: 100%;
 }
 .answer{
     margin: 0;
-    
+    padding-right: 10px;
     display: none;
     border-left: 10px solid blue;
     background: white;
@@ -104,21 +106,18 @@ header .models{
         font-size: 10px;
     }
     .container{
-        margin-left: 30px;
-        width: 300px
+        margin-left: 12vw;
     }
     .question{
         font-style: normal;
-        font-family:monospace;
-        color: white;
-        font-size: 10px;
+        font-size: 2.5vw;
         padding-top: 5px;
-        cursor: pointer;
+        padding-bottom: 5px;
         padding-left: 15px;
         margin-top: 20px;
-        height: 25px;
         background-color: #11101b;
-        border-radius: 5px;
+        border-radius: 2.5px;
+        width: 100%;
     }
     .answer{
         border-radius: 2.5px;
@@ -127,7 +126,7 @@ header .models{
         border-right: 1px solid blue;
         border-bottom: 2px solid blue;
         padding-left: 10px;
-        padding-top: 12px;
+        border-left: 1px solid blue;
         font-size: 10px;
     }
 
