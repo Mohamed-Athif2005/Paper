@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:auto;
+    height:auto;
+}
+header{
+    background: #11101b;
+    font-weight: bold;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    padding: 10px 50px 20px 50px;
+    font-size: 15px;
+    height: 70px;
+    display: flex;
+    transform: translateX(-100%);
+    align-items: center;
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+    animation: sll 0.9s ease-out forwards;
+}
+header .home a{
+    color: white;
+    font-size: 25px;
+}
+
+header .models{
+    color: white;
+}
+.container{
+    position: relative;
+    width: 700px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 320px;
+}
+.question{
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-left: 30px;
+    margin-top: 20px;
+    height: 40px;
+    background-color: #11101b;
+    border-radius: 10px;
+}
+.answer{
+    margin: 0;
+    
+    display: none;
+    border-left: 10px solid blue;
+    background: white;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    display: none;
+    color: black;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-right: 2px solid blue;
+    border-bottom: 2px solid blue;
+    transform: translateY(-20%);
+    animation: 0.5s su ease-in-out forwards;
+}
+.answer.open{
+    display:block;
+}
+
+
+@keyframes zoomin{
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes su{
+    to{
+        transform: translateY(0);
+    }
+    
+}
+@keyframes sll{
+    to{
+        transform: translateX(0);
+    }
+    
+}
+
+@media (max-width : 800px) {
+    header .models{
+        font-size: 20px;
+    }
+    header .home{
+        font-size: 10px;
+    }
+    .container{
+        margin-left: 30px;
+        width : 350px;
+    }
+    .question{
+        font-style: normal;
+        font-family:monospace;
+        color: white;
+        font-size: 10px;
+        padding-top: 5px;
+        cursor: pointer;
+        padding-left: 15px;
+        margin-top: 20px;
+        height: 20px;
+        background-color: #11101b;
+        border-radius: 5px;
+    }
+    .answer{
+        border-radius: 2.5px;
+        border-top-left-radius: 0.5px;
+        border-top-right-radius: 1px;
+        border-right: 1px solid blue;
+        border-bottom: 2px solid blue;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
+}
