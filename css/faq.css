@@ -107,6 +107,7 @@ header .models{
     }
     .container{
         margin-left: 12vw;
+        width: 80%;
     }
     .question{
         font-style: normal;
