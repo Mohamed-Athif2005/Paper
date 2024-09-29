@@ -1,0 +1,844 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    background-color: black;
+}
+html,body{
+    width:auto;
+    height:auto;
+}
+header{
+    background: #11101b;
+    font-weight: bold;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    padding: 10px 50px 20px 50px;
+    font-size: 15px;
+    height: 70px;
+    display: flex;
+    transform: translateX(-100%);
+    align-items: center;
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+    animation: sll 0.9s ease-out forwards;
+}
+header .home a{
+    color: white;
+    font-size: 25px;
+}
+
+header .models{
+    color: white;
+}
+.container{
+    display: flex;
+    margin-top: 50px;
+    height: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+    animation: zoomin 0.5s ease-in-out forwards;
+    flex-wrap: wrap;
+}
+.container .d1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.container .d1 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .d1 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .d1 .sh1{
+
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05     );
+    opacity: 1;
+    height: 1%;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .d1 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.container .d1{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 1%;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/*Dragon 2*/
+.container .d2 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .d2 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .d2 .sh2{
+
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05     );
+    opacity: 1;
+    height: 1%;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .d2 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .d2{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Dragon 3*/
+.container .d3 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .d3 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .d3 .sh3{
+
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05     );
+    opacity: 1;
+    height: 1%;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .d3 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .d3{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Bird1*/
+.container .b1 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .b1 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .b1 .sh4{
+
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05     );
+    opacity: 1;
+    height: 1%;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .b1 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .b1{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*bird 2*/
+.container .b2 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .b2 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .b2 .sh5{
+
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05     );
+    opacity: 1;
+    height: 1%;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .b2 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .b2{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*bird3*/
+.container .b3 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .b3 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .b3 .sh6{
+
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05     );
+    opacity: 1;
+    height: 1%;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .b3 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .b3{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*human1*/
+.container .hu1 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .hu1 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .hu1 .sh7{
+
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05     );
+    opacity: 1;
+    height: 1%;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .hu1 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .hu1{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*human2*/
+.container .hu2 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .hu2 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .hu2 .sh8{
+
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05     );
+    opacity: 1;
+    height: 1%;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .hu2 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .hu2{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*human3*/
+.container .hu3 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .hu3 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .hu3 .sh9{
+
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05     );
+    opacity: 1;
+    height: 1%;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .hu3 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .hu3{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*insect1*/
+.container .i1 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .i1 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .i1 .sh10
+{
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05);
+    opacity: 1;
+    height: 105     ;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .i1 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .i1{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*insect2*/
+.container .i2 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .i2 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .i2 .sh11
+{
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05);
+    opacity: 1;
+    height: 105     ;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .i2 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .i2{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*insect3*/
+.container .i3 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .i3 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .i3 .sh12
+{
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05);
+    opacity: 1;
+    height: 105     ;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .i3 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .i3{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*veh1*/
+.container .v1 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .v1 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .v1 .sh13
+{
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05);
+    opacity: 1;
+    height: 105     ;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .v1 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .v1{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*veh2*/
+.container .v2 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .v2 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .v2 .sh14
+{
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05);
+    opacity: 1;
+    height: 105     ;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .v2 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .v2{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*veh3*/
+.container .v3 h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.container .v3 p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .v3 .sh15
+{
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.05);
+    opacity: 1;
+    height: 105     ;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container .v3 img{
+    width: 250px;
+    height: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.container .v3{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*buy*/
+.conainer .buy{
+    text-align: center;
+}
+.container .buy form p{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.container .buy h2{
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    
+    
+}
+
+.container .buy form p .username{
+    border-radius: 5px;
+    border: 1px solid white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    height: 18px;
+}
+.container .buy form p .address{
+    border-radius: 5px;
+    border: 1px solid white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    height: 20px;
+}
+.container .buy form p .orderno{
+    border-radius: 5px;
+    border: 1px solid white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    height: 20px;
+}
+
+.container .buy {
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    height: 1%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form{
+    text-align: center;
+}
+button{
+    padding: 10px 10px 10px 10px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.005);
+    background: none;
+    font-weight: bold;
+    border-bottom: 1px solid blue;
+}
+
+@keyframes zoomin{
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes sll {
+    to{
+        transform: translateX(0);
+    }
+    
+}
+@media (max-width : 800px) {
+    header .models{
+        font-size: 20px;
+    }
+    header .home{
+        font-size: 10px;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .v3 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .v2 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .v1 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .hu1 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .hu2 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .hu3 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .i1 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .i2 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .i3 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .d1 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .d2 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .d3 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .b1 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .b2 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container .b3 img{
+        width: 200px;
+        height: 10%;
+    }
+    .container h2{
+        font-size: 15px;
+    }
+    .container p{
+        font-size: 15px;
+    }
+    .container .buy{
+        width: 150px;
+    }
+    .container .buy form p{
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    .container .buy form p .username{
+        height: 6px;
+        border-radius: 2px;
+        width: 80px;
+    }
+    .container .buy form p .address{
+        height: 6px;
+        border-radius: 2px;
+        width: 80px;
+    }
+    .container .buy form p .orderno{
+        height: 6px;
+        border-radius: 2px;
+        width: 80px;
+    }
+
+}
