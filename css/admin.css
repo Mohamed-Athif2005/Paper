@@ -3,8 +3,12 @@ body {
     padding: 0;
     position: relative;
     box-sizing: border-box;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack header and container vertically */
+    height: 100vh; /* Full viewport height */
 }
-body::before{
+
+body::before {
     content: "";
     background-image: url("../images/beach.jpg");
     background-size: cover;
@@ -17,28 +21,22 @@ body::before{
     height: 100%;
     z-index: -1;
     opacity: 0.2;
-    padding-bottom: 50px;
-}
-
-html, body {
-    width: auto;
-    height: 100%;
-    margin: 0;
 }
 
 header {
     background-color: #11101b;
     font-weight: bold;
     font-family: "M PLUS Rounded 1c", sans-serif;
-    padding: 10px 50px 20px 50px;
+    padding: 10px 50px;
     font-size: 15px;
     height: 70px;
     display: flex;
     align-items: center;
     text-align: center;
-    position: relative;
     justify-content: space-between;
     animation: sll 0.9s ease-out forwards;
+    position: relative; /* Ensure header is in normal flow */
+    z-index: 1; /* Ensure header is above background */
 }
 
 header .home a {
@@ -50,38 +48,35 @@ header .models {
     color: white;
 }
 
-
 .container {
-    width: 500px;
-    height: 300px;
+    flex: 1; /* Allow container to take up remaining space */
     display: flex;
+    flex-direction: column; /* Stack items vertically */
     text-align: center;
     justify-content: center;
     align-items: center;
     font-family: "M PLUS Rounded 1c", sans-serif;
-    font-style: 25px;
     background: transparent;
     border-radius: 10px;
-    margin-left: 28vw;
-    margin-top: 22vh;
-    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.9);
+    padding: 20px; /* Add some padding */
 }
-.container form input{
+
+.container form input {
     padding-left: 15px;
     width: 250px;
     font-family: "M PLUS Rounded 1c", sans-serif;
-    border : none;
+    border: none;
     border-radius: 10px;
     line-height: 2px;
     height: 8vh;
 }
 
-.container form a{
-    padding: 10px 100px 10px 100px;
+.container form a {
+    padding: 10px 100px;
     color: white;
     font-weight: bold;
     background-color: green;
-    font-family: "M PLUS Rounded 1c",sans-serif;
+    font-family: "M PLUS Rounded 1c", sans-serif;
     font-size: 18px;
     border-radius: 50px;
     cursor: pointer;
@@ -94,23 +89,20 @@ header .models {
     header .home {
         font-size: 10px;
     }
-    .container form a{
+    .container form a {
         font-size: 15px;
     }
-    .container{
-        margin-bottom: 5vh;
-        margin-top: 15vh;
-        margin-left: 15vw;
-        font-size: 15px;
-        width: 250px;
-        height: 400px;
+    .container {
+        margin: auto; /* Center the container */
+        width: 90%; /* Make it responsive */
+        max-width: 250px; /* Set a max width */
+        height: auto; /* Adjust height */
     }
-    .container form input{
-        width: 200px;
-        height: 5vh;
+    .container form input {
+        width: 100%; /* Full width */
+        height: 5vh; /* Responsive height */
     }
-    .container form a{
-        padding-right: 80px;
-        padding-left: 80px;
+    .container form a {
+        padding: 10px 20px; /* Adjust padding */
     }
 }
