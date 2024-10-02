@@ -726,6 +726,7 @@ button{
     box-shadow: 0px 0px 20px rgba(255,255,255,0.005);
     background: none;
     font-weight: bold;
+    font-size: 25px;
     border-bottom: 1px solid blue;
 }
 
@@ -746,6 +747,9 @@ button{
     }
     header .home{
         font-size: 10px;
+    }
+    button{
+        font-size: 15px;
     }
     .container{
         display: flex;
@@ -839,6 +843,13 @@ button{
         height: 6px;
         border-radius: 2px;
         width: 80px;
-    }
+    }        
+    header .models{
+            font-size: 20px;
+        }
+        
+    header .home{
+            font-size: 10px;
+        }
 
 }
