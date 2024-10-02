@@ -694,8 +694,10 @@ header .models{
 .container .buy form p .address{
     border-radius: 5px;
     border: 1px solid white;
+    width: 150px;
     font-family: "M PLUS Rounded 1c", sans-serif;
-    height: 20px;
+    height: 55px;
+    resize: vertical;
 }
 .container .buy form p .orderno{
     border-radius: 5px;
@@ -823,26 +825,32 @@ button{
         font-size: 15px;
     }
     .container .buy{
-        width: 150px;
+        width: 200px;
     }
     .container .buy form p{
         padding-left: 5px;
-        font-size: 10px;
+        font-size: 15px;
     }
     .container .buy form p .username{
-        height: 6px;
+        height: 10px;
         border-radius: 2px;
-        width: 80px;
+        width: 100px;
+        font-size: 10px;
+        padding-left: 2px;
     }
     .container .buy form p .address{
-        height: 6px;
+        height: 27.5px;
+        font-size: 10px;
         border-radius: 2px;
-        width: 80px;
+        width: 100px;
+        padding-left: 2px;
     }
     .container .buy form p .orderno{
-        height: 6px;
+        height: 10px;
         border-radius: 2px;
-        width: 80px;
+        width: 100px;
+        font-size: 10px;
+        padding-left: 2px;
     }        
     header .models{
             font-size: 20px;
